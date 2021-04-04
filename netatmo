@@ -105,7 +105,7 @@ module Netatmo
 
         data[mod['module_name']] = process_data(mod['dashboard_data'])
       end
-      { device['station_name'] => data }
+      { device['home_name'] => data }
     end
   end
 end
